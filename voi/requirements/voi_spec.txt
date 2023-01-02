@@ -1,0 +1,19 @@
+Customer:
+
+register_function  this will register the user to the system
+submit_verification customer submits verification proof like id card 
+request_scooter_plan  1hr or daily or weekly
+return_scooter customer returns its bike
+provide_feedback customer provides the feedback to the company
+
+Bike_rental :
+
+approve_registration approve the customer registration function
+approve_verification approve the verification of the customer document
+display_stock is used to check the stocks of return_scooter
+rent_scooter_on_hourly_basis approve the scooter and plan request
+rent_scooter_on_daily_basis approve the scooter and plan request
+rent_scooter_on_weekly_basis approve the scooter and plan request
+generate_bill generate the bill for the customer based on usage
+
+
